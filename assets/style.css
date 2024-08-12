@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+.scope {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #F57C42;
+}
+
+.main {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.panel {
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    margin-top: 400px;
+    position: absolute;
+    left: 50px;
+    right: 20px;
+}
+
+button {
+    border-radius: 14%;
+    border: none;
+    background-color: #FF7F50;
+    height: 40px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #E5673D;
+}
